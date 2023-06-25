@@ -56,9 +56,12 @@ print(s)
 # min=sum of all elements - highest num
 # max=sum of all elements - lowest num
 
-# logic  to find max and min elements and its value
+# it only applies if it has n numbers and n-1 numbers
 
+# logic  to find max and min elements and its value
+s=0
 l=[5,4,9,-1,2]
+print(sum(l)-min(l)) 
 
 # armstrong number
 # n=153 
