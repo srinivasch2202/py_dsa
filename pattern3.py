@@ -38,13 +38,17 @@ print(max)
 
 
 l=[5,-1,7,8,2,3]
-# let say key=3 we need find 
+# let say k=3 k is searched key 
 for i in range(0,len(l)+1):
     if i==3:
         print(True)
-
-l1=l.sort()
-for i in l:
+# what if 1 lakh data ??
+# print(sorted(l))
+for i in sorted(l):
     if i==3:
         print(i)
+    if i > 3:
+        # print(False) 
+        break
+
 
